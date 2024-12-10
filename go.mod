@@ -1,4 +1,4 @@
-module github.com/knoguchi/mmdb2csv
+module github.com/koalapower/mmdb2kuma
 
 go 1.16
 
