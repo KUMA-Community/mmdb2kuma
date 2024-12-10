@@ -1,4 +1,4 @@
-# mmdb2csv
+# mmdb2kuma
 
 # What does it do?
 
@@ -10,8 +10,12 @@ Many applications support CSV but not mmdb.  For example it's easy to import CSV
 
 # How?
 
-./mmdb2csv GeoIP2ISP.mmdb > isp.csv
+go run mmdb2kuma GeoIP2City.mmdb > ips.csv
+
+.\mmdb2kuma.exe GeoIP2City.mmdb > ips.csv
+
+./mmdb2kuma GeoIP2City.mmdb > ips.csv
 
 # Build
-go build mmdb2csv.go
+go build mmdb2kuma.go
 
